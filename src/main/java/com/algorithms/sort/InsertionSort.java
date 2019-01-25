@@ -11,7 +11,7 @@ public class InsertionSort {
     public void sort(final char[] data) {
         for (int i = 1; i < data.length; i ++) {
             char item = data[i];
-            int j = i -1;
+            int j = i - 1;
             while (j >= 0 && data[j] > item) {
                 data[j + 1] = data[j];
                 j--;
